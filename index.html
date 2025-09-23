@@ -7,99 +7,95 @@
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Aksel Müür visiitkaart</title>
+    <title>Aksel Müür üheleheline</title>
+  
   </head>
 
   <body>
     <a href="#kontakt" class="skip-link">Kontakt </a>
     <header>
-      <picture>
-        <img src="images/Arvuti.gif" alt="Kangelaspilt" loading="lazy" />
-      </picture>
-      <nav aria-label="Põhinavigatsioon">
-        <a href="#sissejuhatus">Sissejuhatus</a>
-        <a href="#teooria">Teooria </a>
-        <a href="#varia">Varia </a>
-        <a href="#kontakt">Kontakt </a>
-      </nav>
+    <div class="hero">
+  <img class="Kangelane" src="images/Arvuti.gif" alt="Kangelaspilt" loading="lazy" />
+  <nav aria-label="Põhinavigatsioon">
+    <a href="#sissejuhatus">Sissejuhatus</a>
+    <a href="#teooria">Teooria</a>
+    <a href="#varia">Varia</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</div>
+    
     </header>
+    
     <main>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-      aspernatur ut beatae officiis voluptatum quidem maxime ex consequuntur
-      consectetur ducimus soluta quibusdam hic error, natus dolorum delectus
-      culpa veniam reprehenderit modi magni quisquam deleniti exercitationem!
-      Laboriosam maiores fugit pariatur est a amet officia voluptatibus
-      assumenda, totam ullam cum aliquid sequi voluptates laudantium optio
-      magnam repudiandae doloremque iste? Rerum enim cum laboriosam saepe
-      corporis natus libero, repudiandae nobis quas incidunt accusantium, alias
-      fugiat iste deleniti qui quo impedit recusandae repellat obcaecati quae?
-      Animi repellat officiis voluptatem distinctio expedita et sequi est
-      repellendus nulla ducimus quam aperiam, cum impedit, ipsam, quaerat
-      mollitia?
+   
       <section id="sissejuhatus">
         <h2>Sissejuhatus</h2>
         <p>Mis on HTML?</p>
-        <a href="index.html">
-          <img
-            src="images/Kernel_panic.webp"
-            alt="Ava galerii"
-            width="1000"
-            height="100"
-          />
-        </a>
+        
       </section>
+      
       <section id="teooria">
         <h2>Teooria</h2>
         <p>HTML tähendus.</p>
+        
         <svg
           role="img"
           aria-labelledby="ic-title ic-desc"
-          width="24"
-          height="24"
+          width="100"
+          height="100"
           viewBox="0 0 24 24"
         >
           <title id="ic-title">Info ikoon</title>
           <desc id="ic-desc">Ringis i-täht</desc>
-          <circle cx="12" cy="12" r="10" fill="yellow" />
+          <circle cx="12" cy="12" r="10" fill="orange" />
           <text
+          
             x="12"
             y="16"
             text-anchor="middle"
-            font-size="12"
-            fill="#0b1220"
-          ></text>
+            font-size="20"
+            fill="blue"
+          >
+          A
+        </text>
         </svg>
       </section>
+      
       <section>
         <section id="varia"></section>
         <h3>Varia</h3>
-        <p>
+        <div class="video-wrapper">
           <iframe
-            width="700"
-            height="404"
             src="https://www.youtube.com/embed/qz0aGYrrlhU?start=2"
             title="HTML Tutorial for Beginners"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           >
           </iframe>
-        </p>
-      </section>
-      <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p><img src="images/Panda.avif" alt="Image of a panda" /></p>
-        <p class="title">Aksel Müür</p>
-        <p>Tartu VOCO VSo25 õpilane</p>
-        <a href="https://voco.ee/" target="_blank" rel="noopener noreferrer">
-          <img
-            src="https://voco.ee/wp-content/uploads/VOCO-Logo.svg"
-            alt="Voco koduleht"
-            width="300"
-            height="50"
-            loading="lazy"
-          />
-        </a>
-      </section>
+        </div>
+     <section id="kontakt">
+  <h2>Kontakt</h2>
+
+  <div class="info-row">
+    <a href="index.html">
+      <img src="images/Panda.avif" alt="Mine algusesse" />
+    </a>
+
+    <div class="text-info">
+      <p class="title">Aksel Müür</p>
+      <p>Tartu VOCO VSo25</p>
+
+      <a href="https://voco.ee/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://voco.ee/wp-content/uploads/VOCO-Logo.svg"
+          alt="Voco koduleht"
+          loading="lazy"
+        />
+      </a>
+    </div>
+  </div>
+</section>
+    
     </main>
 
     <footer>© 2025</footer>
