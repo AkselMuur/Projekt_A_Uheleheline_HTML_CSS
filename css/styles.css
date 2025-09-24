@@ -131,7 +131,7 @@ em {
 
 #sissejuhatus .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   align-items: center;
   padding: 2rem;
