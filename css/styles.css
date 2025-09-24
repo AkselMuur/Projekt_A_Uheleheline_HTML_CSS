@@ -3,11 +3,11 @@
 p {
   width: 100%;
 }
-*/
 
 #sissejuhatus {
   width: 100%;
 }
+*/
 
 #kontakt {
   background-color: rgb(255, 255, 96);
@@ -170,4 +170,10 @@ em {
     max-width: 100%;
     height: auto;
   }
+}
+
+.grid-container > div {
+  background-color: #ffe;
+  border: 1px dashed red;
+  padding: 1rem;
 }
