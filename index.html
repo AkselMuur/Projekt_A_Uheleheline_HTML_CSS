@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,11 +15,11 @@
     <a href="#kontakt" class="skip-link">Kontakt </a>
     <header>
     <div class="hero">
-  <img class="Kangelane" src="images/Arvuti.gif" alt="Kangelaspilt" loading="lazy" />
+  <img class="Kangelane" src="images/Arvuti.gif" alt="HTML kirjutamine :p" loading="lazy" />
   <nav aria-label="Põhinavigatsioon">
     <a href="#sissejuhatus">Sissejuhatus</a>
-    <a href="#teooria">Teooria</a>
-    <a href="#varia">Varia</a>
+    <a href="#ajalugu">Ajalugu</a>
+    <a href="#video">Õppevideo</a>
     <a href="#kontakt">Kontakt</a>
   </nav>
 </div>
@@ -28,16 +28,45 @@
     
     <main>
    
-      <section id="sissejuhatus">
-        <h2>Sissejuhatus</h2>
-        <p>Mis on HTML?</p>
-        
-      </section>
+    
       
-      <section id="teooria">
-        <h2>Teooria</h2>
-        <p>HTML tähendus.</p>
-        
+<section id="sissejuhatus">
+  <h1>Sissejuhatus</h1>
+  <div class="grid-container">
+    <h2>Mis on HTML?</h2>
+    <p>HTML (ingliskeelne lühend sõnadest HyperText Markup Language 
+      'hüperteksti märgistuskeel'[1][2]) on keel, milles märgendatakse veebilehti. 
+      Versioonid 2.0 kuni 4.01 HTML olid SGML-i rakendused. HTML-dokumentide (failide) 
+      veebist allalaadimiseks ja vaatamiseks kasutatakse enamasti veebibrauserit. 
+      Selline elektroonilise dokumendi märgendamise mõte on lahutada sisu, vaade jms 
+      objekti omadused üksteisest.
+<p>HTML paneb paika üksnes dokumendi struktuuri, kuid võimaldab veebilehele kaasata skripte, 
+eeskätt JavaScripti ja CSS-i, millega kirjeldatakse lehe kujundus. Tsiteeritud 
+<a href="https://et.wikipedia.org/wiki/HTML" target="_blank">Vikipeediast </a></p>
+
+  </div>
+</section>
+      <section id="ajalugu">
+        <h2>Ajalugu</h2>
+        <p>HTML-i lõi koos veebiga 1990. aastal Tim Berners-Lee. Aastal 1994 asutas ta W3C, 
+          mis on sellest ajast alates tegelenud muuhulgas ka HTML-i 
+          standardite väljatöötamisega.[3] </p>
+
+<p> Nimekiri W3C välja töötatud HTML-i versioonidest:</p>
+
+<p>HTML 2.0 [4]</p>
+<p>HTML 3.2 [5]</p>
+<p>HTML 4.01 [6]</p>
+<p>HTML 4.01 Strict – W3C soovituslik versioon.</p>
+<p>HTML 4.01 Transitional – lubab kasutada ka esitlusega seotud elemente ja atribuute. 
+See lihtsustab ületulekut varasematelt HTML-i versioonidelt.</p>
+<p>HTML 4.01 Frameset – võimaldab veebilehe tegemisel kasutada nn raame (frame).</p>
+<p>HTML5. Tsiteeritud <a href="https://et.wikipedia.org/wiki/HTML" target="_blank">Vikipeediast </a></p>
+
+
+
+
+
         <svg
           role="img"
           aria-labelledby="ic-title ic-desc"
@@ -61,9 +90,9 @@
         </svg>
       </section>
       
-      <section>
-        <section id="varia"></section>
-        <h3>Varia</h3>
+      
+        <section id="video">
+        <h3>Õppevideo</h3>
         <div class="video-wrapper">
           <iframe
             src="https://www.youtube.com/embed/qz0aGYrrlhU?start=2"
@@ -73,17 +102,19 @@
           >
           </iframe>
         </div>
+        </section>
      <section id="kontakt">
   <h2>Kontakt</h2>
 
   <div class="info-row">
     <a href="index.html">
-      <img src="images/Panda.avif" alt="Mine algusesse" />
+      <img src="images/Panda.avif" alt="Mine algusesse" 
+      loading="lazy"/>
     </a>
 
     <div class="text-info">
       <p class="title">Aksel Müür</p>
-      <p>Tartu VOCO VSo25</p>
+      <p>Tartu <em>VOCO</em></p>
 
       <a href="https://voco.ee/" target="_blank" rel="noopener noreferrer">
         <img
@@ -96,8 +127,9 @@
   </div>
 </section>
     
-    </main>
+    
 
     <footer>© 2025</footer>
+    </main>
   </body>
 </html>
